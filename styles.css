@@ -27,6 +27,8 @@ h1 {
   font-size: 20px;
   padding: 12px;
   margin-bottom: 10px;
+  border: 2px solid rgb(144, 135, 235);
+  border-radius: 4px;
 }
 input[type="date"] {
   font-size: 20px;
@@ -38,8 +40,12 @@ input[type="submit"] {
   padding: 12px;
 }
 input[type="date"]:focus {
-  background-color: rgb(54, 54, 165);
-  color: white;
+  /* background-color: rgb(54, 54, 165);
+  color: white; */
+  border: 2px solid rgb(36, 35, 35);
+}
+p {
+  margin: 0 auto;
 }
 button {
   font-size: 20px;
